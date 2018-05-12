@@ -1,0 +1,284 @@
+#page {
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    padding-top: 6em;
+}
+
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background: url('../images/concrete.png');
+  }
+
+  .page-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px;
+    z-index: 1;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+.page-nav .page-top-logo{
+  float: left;
+}
+
+.page-nav .page-top-menu {
+  float: left;
+}
+
+.page-nav .page-top-logo {
+  color: #ffffff;
+}
+
+  .page-nav .page-top-menu {
+    width: 60%;
+    color: #4aaaa5;
+  }
+
+  .page-top-menu {
+    color: #777777;
+  }
+
+  .page-top-logo{
+    margin-left:190px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+  }
+
+  .page-nav #page-logo {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+  }
+
+  .page-nav #page-logo {
+    background-color: #4aaaa5;
+    padding: 17.5px;
+    color: #ffffff;
+  }
+
+  .page-nav a {
+    display: inline-block;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+   .page-nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .page-nav ul li a {
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 0px 0px;
+    color: #777777;
+  }
+
+  #about{
+    margin-top: 20px;
+    margin-left: 580px;
+    margin-right: 0px;
+  }
+
+  #portfolio{
+    margin-left:0px;
+    margin-right: 0px;
+  }
+
+  #contact{
+    margin-left: 0px;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+  .name {
+    left: 325px;
+    position: relative;
+    height: 60px;
+    width: 170px;
+    text-align: center;
+    line-height: 3.5em;
+    color: #fff;
+    background: #4aaaa5;
+    z-index: 6;
+  }
+
+.box-form{
+	width:960px;
+    height:435px;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 15px;
+    left: 190px;
+    padding-right: 15px;
+    margin-top: 0px;
+}
+.box-form-portfolio{
+	width:960px;
+    height:630px;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 15px;
+    left: 190px;
+    padding-right: 15px;
+    margin-top: 0px;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+}
+ 
+.white{
+	background: #ffffff
+}
+
+input[type=text] {
+    width: 100%;
+    padding-right: -10px;
+}
+
+.submitbutton{
+    background-color: #4aaaa5;
+    border: none;
+    margin: 0 0 0 0;
+    color: white;
+    height: 25px;
+    width: 80px;
+  left: 360px;
+}
+
+.message1{
+    height:135px;
+    width: 100%;
+}
+
+  #colorstrip{
+    width: 100%; height: 2px;
+    padding-right: -10px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #cccccc;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .me{
+    float: left;
+    padding: 0;
+    margin: 0px;
+  }
+  
+  div#leftBoxesBox {
+    position: absolute;
+    left: 20px;
+    width: 12em;
+  }
+  
+  div#rightBoxesBox {
+    position: absolute;
+    left: 13em;
+    width: 12em;
+  }
+
+.aboutme{
+  position: relative;
+  margin-left: 180px;
+  float: left;
+  width: 760px;
+  word-wrap: break-word;
+}
+
+.text-block {
+  line-height: 40px;
+  height: 40px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 140px;
+  background-color:#4aaaa5;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-variant-position: inherit;
+  text-align: center;
+}
+
+
+
+.container {
+  position: relative;
+}
+
+@keyframes picturesFadeInOut {
+  0% {
+  opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+}
+
+#pictures {
+  position:relative;
+  margin:0 auto;
+}
+
+#pictures img {
+  position:absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#pictures img.second {
+animation-name: picturesFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
